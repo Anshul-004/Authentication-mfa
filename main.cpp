@@ -18,7 +18,7 @@ int main()
         cout<<"Logged in Successfully!";
     } 
     else {
-        cout<<"Invalid Credentials";
+        cout<<"Invalid Credentials"<<endl;
         cout<<"Please check your username and password";
     }
     return 0;
