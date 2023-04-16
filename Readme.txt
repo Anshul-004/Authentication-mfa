@@ -10,3 +10,4 @@ OOPS concepts
 4. Create authentication system for core userid and password login.
 
 *** EnD
+learn classes and structures and file io in detail  
