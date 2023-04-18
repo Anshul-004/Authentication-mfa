@@ -8,7 +8,6 @@ using namespace std;
 // Login, Registration and Forgot Password. 
 int login(); // the login function
 int registration(); // the registration funtion
-int forgot(); // the forgot password function
 
 int main()
 {
@@ -18,8 +17,7 @@ int main()
     cout<<"\t\t\t--------------- MAIN MENU ---------------\n"<<endl;
     cout<<"! Press 1 to LOGIN "<<endl;
     cout<<"! Press 2 to REGISTER "<<endl;
-    cout<<"! Press 3 to RESET PASSWORD "<<endl;
-    cout<<"! Press 4 to EXIT "<<endl;
+    cout<<"! Press 3 to EXIT "<<endl;
     cin>>uchoice;
     cout<<endl;
 // UI ENDS ABOVE
@@ -33,14 +31,13 @@ int main()
     case 2:
         registration();
         break;
+
     case 3:
-        forgot();
-        break;
-    case 4:
         cout<<"\t\t\t THANK YOU \n\n\n";
         break;
     
     default:
+        system("cls");
         cout<<"Please Select the option From the Prompt"<<endl;
         main(); //it will redirect to main function
         break;
@@ -53,17 +50,17 @@ int main()
 
 int login()
 {
+    system("cls");
+    
     return 0;
 }
 
 
 int registration()
 {
+    system("cls");
+    
     return 0;
 }
 
 
-int forgot()
-{
-    return 0;
-}
